@@ -1,0 +1,103 @@
+# 
+# Debian GNU/Linux 6.0
+# deb http://www.backports.org/debian squeeze-backports main contrib non-free
+# deb http://apt.wicd.net/ debian extras
+# deb http://www.debian-multimedia.org/ squeeze main non-free
+# deb http://ftp.debian.org/debian/ squeeze main non-free contrib
+# deb http://security.debian.org/ squeeze/updates main contrib non-free
+# deb http://http.us.debian.org/debian/ squeeze main contrib non-free
+# deb-src http://http.us.debian.org/debian/ squeeze main contrib non-free
+# deb-src http://ftp.us.debian.org/debian/ squeeze main non-free
+
+## Debian.hands.com squeeze:
+# deb http://debian.hands.com/debian/ squeeze main non-free contrib
+# deb-src http://debian.hands.com/debian/ squeeze main non-free contrib
+
+# Debian Volatile http://www.debian.org/volatile/
+# deb http://ftp.debian.org/debian squeeze-updates main
+
+
+# Debian GNU/Linux 7.0
+####################################
+## Debian Testing ##
+####################################
+# Testing
+deb http://ftp.debian.org/debian/ wheezy main contrib non-free
+deb-src http://ftp.debian.org/debian/ wheezy main contrib non-free
+
+# Testing Security  http://secure-testing-master.debian.net/
+deb http://security.debian.org wheezy/updates main contrib non-free
+deb-src http://security.debian.org wheezy/updates main contrib non-free
+deb http://http.us.debian.org/debian/ wheezy contrib non-free main
+
+#Testing Proposed Updates
+deb http://ftp.debian.org/debian/ testing-proposed-updates main contrib non-free
+deb-src http://ftp.debian.org/debian/ testing-proposed-updates main contrib non-free 
+
+## Multimedia ##
+# Marillat For info visit http://www.debian-multimedia.org
+# deb http://www.debian-multimedia.org testing main non-free
+deb http://www.debian-multimedia.org wheezy main non-free
+
+deb http://mirror.yandex.ru/debian/ testing main
+deb-src http://mirror.yandex.ru/debian/ testing main
+
+####################################
+
+## Wine repositories:
+# deb http://www.lamaresh.net/apt squeeze main
+deb http://www.lamaresh.net/apt sid main
+# Save and close sources.list
+# wget http://www.lamaresh.net/apt/key.gpg && sudo apt-key add key.gpg #to add gpg key
+
+
+## Add this line for Opera browser
+## wget -O - http://deb.opera.com/archive.key | apt-key add -
+## if needed, replace squeeze with etch, lenny, sid...
+## deb http://deb.opera.com/opera squeeze non-free
+
+# NVidia
+#deb http://frickelplatz.de/debian sid main contrib non-free
+
+#iceweasel
+#deb http://mozilla.debian.net/ squeeze-backports iceweasel-aurora
+#deb http://mozilla.debian.net/ squeeze-backports iceweasel-release
+
+
+### Frostwire ###
+# Frostwire http://apt.debianchile.org/frostwire/
+deb http://apt.debianchile.org/frostwire testing main
+############################
+
+### MDC (Multiple Direct Communicator) ###
+deb http://repo.mdc.ru/ubuntu lucid main
+##########################################
+
+#===============================================================================
+# Экспериментальный выпуск:
+#===============================================================================
+
+#----------------Оффициальный репозиторий Debian Experimental-------------------
+#deb ftp://ftp.debian.org/debian/ experimental main contrib non-free
+#deb-src ftp://ftp.debian.org/debian/ experimental main contrib non-free
+
+# Зеркала:
+#deb ftp://ftp.ru.debian.org/debian/ experimental main contrib non-free
+#deb-src ftp://ftp.ru.debian.org/debian/ experimental main contrib non-free
+#deb ftp://mirror.yandex.ru/debian/ experimental main contrib non-free
+#deb-src ftp://mirror.yandex.ru/debian/ experimental main contrib non-free
+#-------------------------------------------------------------------------------
+
+#deb http://http.us.debian.org/debian/ sid contrib non-free main
+
+#KEY - заменить на ключ 
+#gpg --keyserver subkeys.pgp.net --recv KEY
+#gpg --export --armor KEY | sudo apt-key add -
+
+# пример
+#gpg --keyserver subkeys.pgp.net --recv 85A3D26506C4AE2A
+#gpg --export --armor 85A3D26506C4AE2A | sudo apt-key add -
+
+#gpg --keyserver subkeys.pgp.net --recv 2C392DFEEFD17969 ; gpg --export --armor 2C392DFEEFD17969 | sudo apt-key add -
+
+
