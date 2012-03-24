@@ -46,7 +46,7 @@ deb-src http://mirror.yandex.ru/debian/ testing main
 
 ## Wine repositories:
 # deb http://www.lamaresh.net/apt squeeze main
-deb http://www.lamaresh.net/apt sid main
+# deb http://www.lamaresh.net/apt sid main
 # Save and close sources.list
 # wget http://www.lamaresh.net/apt/key.gpg && sudo apt-key add key.gpg #to add gpg key
 
@@ -66,7 +66,7 @@ deb http://www.lamaresh.net/apt sid main
 
 ### Frostwire ###
 # Frostwire http://apt.debianchile.org/frostwire/
-deb http://apt.debianchile.org/frostwire testing main
+# deb http://apt.debianchile.org/frostwire testing main
 ############################
 
 ### MDC (Multiple Direct Communicator) ###
